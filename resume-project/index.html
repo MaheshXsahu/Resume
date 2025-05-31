@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maheshwar Sahu - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        .section-title {
+            @apply text-3xl font-bold text-sky-700 mb-6 pb-2 border-b-2 border-sky-200;
+        }
+        .card {
+            @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300;
+        }
+        .skill-category-title {
+            @apply text-xl font-semibold text-sky-600 mb-3;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 leading-relaxed">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-sky-700">Maheshwar Sahu</a>
+            <div class="hidden md:flex space-x-4">
+                <a href="#summary" class="text-slate-600 hover:text-sky-600 transition-colors duration-300">Summary</a>
+                <a href="#skills" class="text-slate-600 hover:text-sky-600 transition-colors duration-300">Skills</a>
+                <a href="#experience" class="text-slate-600 hover:text-sky-600 transition-colors duration-300">Experience</a>
+                <a href="#education" class="text-slate-600 hover:text-sky-600 transition-colors duration-300">Education</a>
+                <a href="#certifications" class="text-slate-600 hover:text-sky-600 transition-colors duration-300">Certifications</a>
+                <a href="#ai-assistant" class="text-slate-600 hover:text-sky-600 transition-colors duration-300">AI Assistant</a>
+                <a href="#contact" class="text-slate-600 hover:text-sky-600 transition-colors duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-6 py-12">
+        <section id="home" class="min-h-[60vh] flex flex-col justify-center items-center text-center pt-16">
+            <h1 class="text-5xl md:text-6xl font-extrabold text-sky-700 mb-4">Maheshwar Sahu</h1>
+            <p class="text-xl md:text-2xl text-slate-600 mb-8">Computer Science Graduate | Data Enthusiast | Problem Solver</p>
+            <a href="#summary" class="bg-sky-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-sky-700 transition-colors duration-300 text-lg">Learn More About Me</a>
+        </section>
+
+        <section id="summary" class="pt-20">
+            <h2 class="section-title">Summary</h2>
+            <div class="card">
+                <p class="text-lg text-slate-700" id="resume-summary-text">
+                    A self-driven and meticulous B.Sc. Computer Science graduate, skilled in problem-solving and quick learning. Seeking opportunities to leverage data analysis and AI tools for enhanced productivity and workflow efficiency in a dynamic workplace.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="pt-20">
+            <h2 class="section-title">Skills</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card">
+                    <h3 class="skill-category-title">💻 Technical Skills</h3>
+                    <ul class="list-disc list-inside text-slate-700 space-y-1" id="technical-skills-list">
+                        <li>Microsoft Excel (Advanced)</li>
+                        <li>Microsoft PowerPoint</li>
+                        <li>Microsoft Word</li>
+                        <li>AI Models (for productivity/workflow optimization)</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="skill-category-title">🧠 Analytical Skills</h3>
+                    <ul class="list-disc list-inside text-slate-700 space-y-1" id="analytical-skills-list">
+                        <li>Data Analysis</li>
+                        <li>Problem-Solving</li>
+                        <li>Data Visualization</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3 class="skill-category-title">🗣️ Soft Skills</h3>
+                    <ul class="list-disc list-inside text-slate-700 space-y-1" id="soft-skills-list">
+                        <li>Communication (Written & Verbal)</li>
+                        <li>Presentation</li>
+                        <li>Teamwork</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="pt-20">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="space-y-8">
+                <div class="card" id="experience-skytech">
+                    <h3 class="text-2xl font-semibold text-sky-600">Customer Relationship Executive</h3>
+                    <p class="text-lg text-slate-500">Skytech Aviation | Raipur, CG</p>
+                    <p class="text-sm text-slate-400 mb-4">January 2024 – March 2024</p>
+                    <ul class="list-disc list-inside text-slate-700 space-y-2">
+                        <li>Developed and implemented a customer satisfaction dashboard, providing actionable insights that led to a 15% reduction in customer churn.</li>
+                        <li>Analyzed customer feedback data to identify recurring issues, resulting in process improvements that reduced customer resolution time by 20%.</li>
+                        <li>Managed customer inquiries, handling questions, complaints, and feedback efficiently.</li>
+                        <li>Ensured client satisfaction and managed customer accounts effectively.</li>
+                        <li>Handled both inbound and outbound calls, maintaining professional communication.</li>
+                        <li>Fostered strong relationships with clients to ensure customer loyalty.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="pt-20">
+            <h2 class="section-title">Education</h2>
+            <div class="card">
+                <h3 class="text-2xl font-semibold text-sky-600">Bachelor of Science: Computer Science</h3>
+                <p class="text-lg text-slate-500">Govt. Digvijay Autonomous PG College | Rajnandgaon, CG</p>
+                <p class="text-sm text-slate-400 mb-2">(Affiliated with Hemchand Yadav Durg University, Chhattisgarh)</p>
+                <p class="text-sm text-slate-400">July 2018 – July 2021</p>
+            </div>
+        </section>
+
+        <section id="certifications" class="pt-20">
+            <h2 class="section-title">Certifications</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-sky-600">MS Excel</h3>
+                    <p class="text-slate-500">Udemy Certification</p>
+                </div>
+                <div class="card">
+                    <h3 class="text-xl font-semibold text-sky-600">NISM Financial Literacy Certification</h3>
+                    <p class="text-slate-500">National Institute of Securities Markets, Capacity Building Institute of SEBI</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages-interests" class="pt-20">
+             <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h2 class="section-title !text-2xl !mb-4 !pb-1">Languages</h2>
+                     <div class="card">
+                        <ul class="list-disc list-inside text-slate-700 space-y-1">
+                            <li>English</li>
+                            <li>Hindi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="section-title !text-2xl !mb-4 !pb-1">Interests</h2>
+                    <div class="card">
+                        <ul class="list-disc list-inside text-slate-700 space-y-1">
+                            <li>Capital Market</li>
+                            <li>Playing Team Sports: Cricket, Football, etc.</li>
+                            <li>Socializing in events and Interactions with new people</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-assistant" class="pt-20">
+            <h2 class="section-title">✨ AI Assistant: Cover Letter Snippet Generator</h2>
+            <div class="card">
+                <p class="text-lg text-slate-700 mb-4">
+                    Use this AI assistant to generate a concise cover letter snippet tailored to a specific job role, leveraging the content of this resume.
+                </p>
+                <div class="mb-4">
+                    <label for="jobRoleInput" class="block text-slate-700 text-sm font-bold mb-2">Target Job Role:</label>
+                    <input type="text" id="jobRoleInput" class="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="e.g., Data Analyst, Customer Success Manager">
+                </div>
+                <button id="generateSnippetButton" class="bg-sky-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-sky-700 transition-colors duration-300 text-base flex items-center justify-center">
+                    Generate Snippet ✨
+                    <svg id="loadingSpinner" class="animate-spin h-5 w-5 text-white ml-2 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                </button>
+                <div id="generatedSnippetOutput" class="mt-6 p-4 bg-slate-100 rounded-lg border border-slate-200 text-slate-700 min-h-[80px] flex items-center justify-center text-center">
+                    Your generated cover letter snippet will appear here.
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="pt-20 pb-10">
+            <h2 class="section-title">Contact</h2>
+            <div class="card text-center">
+                <p class="text-lg text-slate-700 mb-2">Feel free to reach out!</p>
+                <p class="text-slate-600">
+                    <a href="mailto:maheshwarsahu954@gmail.com" class="text-sky-600 hover:text-sky-800 transition-colors duration-300 break-all">📧 maheshwarsahu954@gmail.com</a>
+                </p>
+                <p class="text-slate-600">
+                    <a href="tel:+917415760416" class="text-sky-600 hover:text-sky-800 transition-colors duration-300">📞 +(91)-7415760416</a>
+                </p>
+                <p class="text-slate-500 mt-1">Vashi, Navi Mumbai, India</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-800 text-slate-300 text-center p-6">
+        <p>&copy; <span id="currentYear"></span> Maheshwar Sahu. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    if (mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+        const currentYearElement = document.getElementById('currentYear');
+        if (currentYearElement) {
+            currentYearElement.textContent = new Date().getFullYear();
+        }
+
+        const generateSnippetButton = document.getElementById('generateSnippetButton');
+        const jobRoleInput = document.getElementById('jobRoleInput');
+        const generatedSnippetOutput = document.getElementById('generatedSnippetOutput');
+        const loadingSpinner = document.getElementById('loadingSpinner');
+
+        if (generateSnippetButton && jobRoleInput && generatedSnippetOutput) {
+            generateSnippetButton.addEventListener('click', async () => {
+                const jobRole = jobRoleInput.value.trim();
+                if (!jobRole) {
+                    generatedSnippetOutput.textContent = "Please enter a target job role.";
+                    return;
+                }
+
+                const resumeSummary = document.getElementById('resume-summary-text').textContent.trim();
+                const technicalSkills = Array.from(document.getElementById('technical-skills-list').children).map(li => li.textContent.trim()).join(', ');
+                const analyticalSkills = Array.from(document.getElementById('analytical-skills-list').children).map(li => li.textContent.trim()).join(', ');
+                const softSkills = Array.from(document.getElementById('soft-skills-list').children).map(li => li.textContent.trim()).join(', ');
+                const skytechExperience = Array.from(document.getElementById('experience-skytech').querySelector('ul').children).map(li => li.textContent.trim()).join('; ');
+
+                const prompt = `Based on the following resume content, generate a concise, one-paragraph cover letter snippet (max 5-7 sentences) tailored for a "${jobRole}" position. Focus on highlighting relevant skills and experiences from the resume.
+
+Resume Summary: ${resumeSummary}
+Technical Skills: ${technicalSkills}
+Analytical Skills: ${analyticalSkills}
+Soft Skills: ${softSkills}
+Professional Experience (Skytech Aviation): ${skytechExperience}
+
+Target Job Role: ${jobRole}`;
+
+                generatedSnippetOutput.textContent = "Generating snippet...";
+                loadingSpinner.classList.remove('hidden');
+
+                try {
+                    let chatHistory = [];
+                    chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                    const payload = { contents: chatHistory };
+                    const apiKey = ""; 
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    const result = await response.json();
+
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        const text = result.candidates[0].content.parts[0].text;
+                        generatedSnippetOutput.textContent = text;
+                    } else {
+                        generatedSnippetOutput.textContent = "Failed to generate snippet. Please try again.";
+                        console.error("Gemini API response structure unexpected:", result);
+                    }
+                } catch (error) {
+                    generatedSnippetOutput.textContent = "Error generating snippet. Please check your network connection or try again later.";
+                    console.error("Error calling Gemini API:", error);
+                } finally {
+                    loadingSpinner.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
